@@ -1,0 +1,33 @@
+#!/usr/bin/env node
+
+'use strict'
+
+var c = require("skilstak-colors");
+
+
+
+var answers = [
+  "Yes.",
+  "No.",
+  "Maybe.",
+  "Dab on 'em folks.",
+  "Yes and if you can boo the broncos.",
+  "No!!!!!!!!!!!!!!!!!!!!!!!!!!!!.",
+  "Outlook not good.",
+  "ask Rob.",
+  "What are those.",
+  "no maybe if you dab you will get a positive answer.",
+  "Yes wait no.",
+  "No and super man like CAM NEWTON."
+]  
+var easterEgg1 = ["dab|dabbed","Dab on em folks"];
+var easterEgg1jr = ["gun","Don't use that on me"];
+
+console.log(c.clear + c.multi("Hi this is the awsome magic eightball"))
+function print(message) {
+   
+  process.stdout.write(message + "\n");
+}
+
+
+
